@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage with Hyperlinks, Tables, and Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    input[type="text"], input[type="email"], select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to 3rd Task</h1>
+  
+  <h2>Hyperlinks</h2>
+  <p>Click the following links:</p>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/hamzaafzall" style="color: blue;">Linkedin</a></li>
+    <li><a href="https://www.google.com" style="color: green;">Google</a></li>
+  </ul>
+  
+  <h2>Table</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Hamza Afzal</td>
+      <td>22</td>
+      <td>210948@students.au.edu.pk</td>
+    </tr>
+        <tr>
+            <td>Yahya Bin Naveed</td>
+            <td>21</td>
+            <td>210999@students.au.edu.pk</td>
+        </tr>
+        <tr>
+            <td>Areesh Ali</td>
+            <td>21</td>
+            <td>210894@students.au.edu.pk</td>
+        </tr>
+        <tr>
+            <td>Ahsan Farooq</td>
+            <td>21</td>
+            <td>211023@students.au.edu.pk</td>
+        </tr>
+        <tr>
+            <td>Taimur Mahmood</td>
+            <td>21</td>
+            <td>210879@students.au.edu.pk</td>
+        </tr>
+        <tr>
+            <td>Hashaam Awan</td>
+            <td>21</td>
+            <td>210981@students.au.edu.pk</td>
+        </tr>
+      </table>
+      
+      
+  </table>
+  
+  <h2>Form</h2>
+  <form action="task5.html" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" style="border: 1px solid #ccc;"><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" style="border: 1px solid #ccc;"><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" style="border: 1px solid #ccc;"></textarea><br>
+    
+    <input type="submit" value="Submit" style="background-color: #008CBA; color: white; border: none; border-radius: 4px; cursor: pointer;">
+  </form>
+</body>
+</html>

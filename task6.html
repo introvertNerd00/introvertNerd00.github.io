@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotations</title>
+  <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+  <header>
+    <h1>Quotations </h1>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Meaningful Quotations</h2>
+      <blockquote>
+        <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+      </blockquote>
+      <blockquote>
+        <p>"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</p>
+      </blockquote>
+    </section>
+    
+    <section>
+      <h2>Comparison: External CSS vs Inline Styling</h2>
+      <p>External CSS and inline styling are both methods used to apply styles to HTML elements, but they have distinct advantages and disadvantages.</p>
+      
+      <h3>External CSS:</h3>
+      <p><strong>Pros:</strong></p>
+      <ul>
+        <li><strong>Modularity:</strong> External CSS allows for separation of concerns, making it easier to organize and maintain styles across multiple webpages.</li>
+        <li><strong>Caching:</strong> External stylesheets can be cached by browsers, resulting in faster page loading times for subsequent visits.</li>
+        <li><strong>Consistency:</strong> Using external CSS promotes consistency in styling across an entire website.</li>
+      </ul>
+      <p><strong>Cons:</strong></p>
+      <ul>
+        <li><strong>Additional HTTP request:</strong> Each external stylesheet requires an additional HTTP request, potentially slowing down the initial page load.</li>
+        <li><strong>Dependencies:</strong> Changes to the external stylesheet may affect styling across multiple pages, making it harder to troubleshoot and debug.</li>
+      </ul>
+      
+      <h3>Inline Styling:</h3>
+      <p><strong>Pros:</strong></p>
+      <ul>
+        <li><strong>Convenience:</strong> Inline styling is quick and easy to implement directly within HTML elements, making it suitable for small-scale styling adjustments.</li>
+        <li><strong>Specificity:</strong> Inline styles have higher specificity, allowing them to override external stylesheets and providing precise control over individual elements.</li>
+      </ul>
+      <p><strong>Cons:</strong></p>
+      <ul>
+        <li><strong>Code redundancy:</strong> Inline styles can lead to code redundancy and reduced readability, especially in larger projects.</li>
+        <li><strong>Maintenance:</strong> Making changes to inline styles requires updating each individual HTML element, which can be time-consuming and error-prone.</li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Quotations and CSS Comparison. All rights reserved.</p>
+  </footer>
+</body>
+</html>
